@@ -9,6 +9,7 @@ http://hostname:5000/rockPaperScissors/input
 
 
 ## Valid Endpoint choices:
+
 http://hostname:5000/rockPaperScissors/rock
 http://hostname:5000/rockPaperScissors/paper
 http://hostname:5000/rockPaperScissors/scissors
@@ -28,4 +29,6 @@ To start the service
 ```
 python3 app.py
 ```
-
+## Explore db
+All the data will be stored in an auto created db `rock_paper_scissors.db`
+this can be explored by running the command `sqlite3 rock_paper_scissors.db`
